@@ -1,0 +1,51 @@
+body{
+  background-color: #191919;
+  color: #fff;
+}
+
+div.MainBox{
+  border: solid;
+  /* height: 80vh;
+  width: 70vw; */
+  margin: 5vh auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#ChoiceSize{
+  margin: 20px 0 0 20px;
+  display: flex;
+}
+
+#ChoiceSize #InputSizeValue{
+  width: 10vw;
+  min-height: 2em;
+  padding: 0 5px;
+}
+
+#ChoiceSize #divError{
+  margin: 0 0 0 5px;
+}
+
+
+button{
+  cursor: pointer;
+  border: none;
+  background: #e0e1e2 none;
+  color: rgba(0,0,0,.6);
+  /* padding: .5em; */
+  min-height: 2.5em;
+  min-width: 5em;
+}
+
+label.container{
+  margin: 0 0 0 50vw;
+  font-size: large;
+}
+
+input#editCheckBox{
+  height: 20px;
+  width: 20px;
+  margin: 0 0 0 15px;
+}
+
